@@ -73,7 +73,6 @@ namespace ToDoList_WebAPI.Controllers
             return todo;
         }
 
-
         // DELETE api/<ToDosController>/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteToDo(int id)
